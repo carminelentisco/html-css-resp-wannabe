@@ -1,3 +1,4 @@
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -64,4 +65,23 @@ img{
 
 .clear {
   clear:both;
+}
+
+/*----------------RESPOINSIVE------------------*/
+
+@media screen and (max-width: 320px) {
+  .row {
+    width: 100%;
+    margin: 50px auto auto;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 100%;
+    float: none;
+    margin-bottom: 50px;
+  }
 }
